@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pasta">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark_toolbar"
+        app:navigationIcon="@drawable/ic_menu"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:logo="@mipmap/ic_my_app_logo"
+        app:titleTextAppearance="@style/app_title"
+        tools:ignore="MissingConstraints,OnClick"
+        android:onClick="back"/>
+
+    <ImageView
+        app:layout_constraintTop_toBottomOf="@id/tool_bar"
+        android:id="@+id/cocktails_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pasta"
+        android:background="@color/my_white"
+        android:paddingBottom="10dp"
+        android:adjustViewBounds="true"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/cocktails_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pasta"
+        android:textColor="@color/my_pink"
+        android:fontFamily="@font/alloyink"
+        app:layout_constraintTop_toBottomOf="@id/cocktails_image"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="7dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    <TextView
+        android:id="@+id/cocktails_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_enjoy"
+        android:textColor="@color/my_black"
+        android:fontFamily="@font/amsterdam"
+        app:layout_constraintTop_toBottomOf="@id/cocktails_title"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="7dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

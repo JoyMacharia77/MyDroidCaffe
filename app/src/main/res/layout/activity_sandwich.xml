@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SandwichActivity">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ics_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ics_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:background="@color/my_white"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:id="@+id/ics_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/ics_image"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/alloyink"
+                android:padding="10dp"
+                android:text="@string/recipe_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/my_pink"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <TextView
+                android:id="@+id/ics_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ics_title"
+                android:layout_marginTop="4dp"
+                android:drawableStart="@drawable/ic_prep_time"
+                android:drawableLeft="@drawable/ic_prep_time"
+                android:padding="10dp"
+                android:text="@string/prep_cook_time_2hrs"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="?android:textColorSecondary"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <!--ADD A HORIZONTAL LINE-->
+            <View
+                android:id="@+id/ics_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/ics_prep"
+                android:background="@color/css_grey" />
+
+            <TextView
+                android:id="@+id/ics_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ics_divider"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/badunicorn"
+                android:padding="8dp"
+                android:text="@string/recipe_short_description"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/my_black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ics_cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+
+        >
+        <!-- <TextView
+             android:id="@+id/donut_heading"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/how_to_prepare_a_donut"
+             android:textStyle="bold"
+             android:textColor="@color/grey_dark"
+             />-->
+        <TextView
+            android:id="@+id/ics_ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/alloyink"
+            android:text="@string/ingredients"
+            android:textAllCaps="true"
+            android:textColor="@color/bright_tab"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ics_ingredient1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ics_ingredients"
+            android:layout_marginTop="8dp"
+            android:text="@string/icecream"
+            android:textColor="@color/my_black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ics_ingredient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ics_ingredient1"
+            android:layout_marginTop="8dp"
+            android:text="@string/chocolate_cookie_bars"
+            android:textColor="@color/my_black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ics_ingredient3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ics_ingredient2"
+            android:layout_marginTop="8dp"
+            android:text="@string/chocolate"
+            android:textColor="@color/my_black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

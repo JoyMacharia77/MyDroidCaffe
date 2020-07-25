@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">MyDroid Caffe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="desserts_recipes">Desserts Recipes</string>
+    <string name="browse_recipes">Browse Recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_cook_time_2hrs"><![CDATA[Prep & Cook Time:2hrs]]></string>
+    <string name="recipe_short_description">Recipe Short Description</string>
+    <string name="how_to_prepare_a_donut">How To Prepare A Donut</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="flour">*Flour</string>
+    <string name="sugar">*Sugar</string>
+    <string name="butter">*Butter</string>
+    <string name="eggs">*Eggs</string>
+    <string name="yeast">*Yeast</string>
+    <string name="plain_yogurt">*Plain Yogurt</string>
+    <string name="heavy_cream">*Heavy Cream</string>
+    <string name="honey">*Honey</string>
+    <string name="corn_syrup">*Corn Syrup</string>
+    <string name="cream_cheese">*Cream Cheese</string>
+    <string name="sour_cream">*Sour Cream</string>
+    <string name="lemon">*Lemon</string>
+    <string name="chocolate_chips">*Chocolate Chips</string>
+    <string name="brown_sugar">*Brown Sugar</string>
+    <string name="baking_powder">*Baking Powder</string>
+    <string name="condensed_milk">*Condensed Milk</string>
+    <string name="milk">*Milk</string>
+    <string name="vanilla_extract">*Vanilla Extract</string>
+    <string name="gelatin">*Gelatin</string>
+    <string name="juice">*Juice Flavoring</string>
+    <string name="icecream">*Icecream</string>
+    <string name="chocolate_cookie_bars">*Chocolate Cookie Bars</string>
+    <string name="chocolate">*Chocolate</string>
+    <string name="coffee">*Coffee</string>
+    <string name="marscapone_cheese">*Marscapone Cheese</string>
+    <string name="ladyfinger_cookies">*LadyFinger Cookies</string>
+    <string name="rum">*Rum</string>
+    <string name="pastries_recipes">Pastries Recipes</string>
+
+
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/sandwich</item>
+        <item>@drawable/cupcakes</item>
+        <item>@drawable/jelly</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/tiramisu</item>
+        <item>@drawable/cookies</item>
+        <item>@drawable/cheese_cake</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice-cream Sandwich</item>
+        <item>Cupcake</item>
+        <item>Jelly</item>
+        <item>Ice-cream</item>
+        <item>Tiramisu</item>
+        <item>Cookie</item>
+        <item>CheeseCake</item>
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy.</item>
+        <item>Froyo is a premium self-serve yogurt.</item>
+        <item>Ice-cream Sandwiches have chocolate and vanilla filling.</item>
+        <item>Cupcakes baked with joy.</item>
+        <item>Jelly comes in a variety of rainbow colors.</item>
+        <item>Ice-cream is available in vanilla,strawberry and chocolate.</item>
+        <item>Tiramisu is filled with creamy goodness</item>
+        <item>Cookies are Chocolate Chip wonders.</item>
+        <item>Cheese Cake dripping with blueberry flavor</item>
+    </string-array>
+
+    <array name="pastries_images">
+        <item>@drawable/croissant</item>
+        <item>@drawable/pie</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/pretzel</item>
+        <item>@drawable/muffin</item>
+        <item>@drawable/cinnamon_roll</item>
+        <item>@drawable/banana_bread</item>
+    </array>
+
+    <string-array name="pastries_title">
+        <item>Croissant</item>
+        <item>BlueBerry Pie</item>
+        <item>Danish</item>
+        <item>Pretzel</item>
+        <item>Muffin</item>
+        <item>Cinnamon Roll</item>
+        <item>Banana Bread</item>
+    </string-array>
+
+    <string-array name="pastries_description">
+        <item>Croissants are Light,Airy and Buttery with a hint of sweetness.</item>
+        <item>Blue-Berry Pie is dripping with Natural Goodness.</item>
+        <item>Danishes are ravishing.</item>
+        <item>Pretzels will leave you pressed for more.</item>
+        <item>Muffins are baked with joy.</item>
+        <item>Cinnamon rolls will leave you on a roll.</item>
+        <item>Banana bread will make you go bananas.</item>
+    </string-array>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="furaha_caffe">Furaha Cafe</string>
+    <string name="rate">Rate Our Stores</string>
+    <string name="store_name">Store Name</string>
+    <string name="like">Like</string>
+    <string name="rate_store">Rate</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="dine_with_us">Dine With Us</string>
+    <string name="mall_message">Get the best services by sharing the best moments with family and friends in this branch. We are glad to be of service.</string>
+
+    <array name="stores_images">
+        <item>@drawable/cafe3</item>
+        <item>@drawable/cafe4</item>
+        <item>@drawable/cafe5</item>
+        <item>@drawable/cafe1</item>
+        <item>@drawable/cafe6</item>
+        <item>@drawable/cafe2</item>
+        <item>@drawable/cafe7</item>
+    </array>
+
+    <string-array name="stores_name">
+        <item>Two-Rivers Mall</item>
+        <item>Garden City Mall</item>
+        <item>Village Market</item>
+        <item>Junction Mall</item>
+        <item>The Hub</item>
+        <item>Thika Road Mall</item>
+        <item>West Mall</item>
+    </string-array>
+
+    <string-array name="stores_description">
+        <item>Beautifully bright and open,this Furaha Cafe
+               Comes to life with its funky design and cool
+               movie posters dotted along the walls.Read More.... </item>
+        <item>Conveniently located in this busy central mall,
+              its bright with modern decor, unique artwork
+              and a large outside seating.Read More....</item>
+        <item>Nested in the heart of an ever-growing community,
+              this New Mall branch provides all the best that
+               Furaha Cafe has to offer. Read more....</item>
+        <item>Modern and trendy,this branch is bright and inviting.
+              A cool space to hang out with friends,business lunches
+              and partying in the evening.Read More....</item>
+        <item>Furaha Cafes balcony overlooks the main entrance to
+              the busy mall. It has a distinct French feel in the
+              design.Read More....</item>
+        <item>Set on the first floor of the mall,the kiosk is a small
+               sanctuary from the busy world outside,with intimate
+               seating and cosy corners.Read More....</item>
+        <item>Our largest Outlet is now open on this mall with spectacular
+            design and beauty right in the heart of Nairobi
+            Open from 7.00 a.m till Midnight.Read More....</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="cocktails">Cocktails</string>
+    <string name="pizza">Pizza</string>
+    <string name="pasta">Pasta</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="business_owner_joy_macharia">Business Owner:Joy Macharia</string>
+    <string name="bs_email">furahacafe@gmail.com</string>
+    <string name="others">OTHERS</string>
+    <string name="error">ERROR:Please Relaunch The App To Go Back.</string>
+    <string name="swipe">SWIPE LEFT FOR NAVIGATION DRAWER.</string>
+    <string name="enjoy">ENJOY!!!</string>
+    <string name="do_enjoy">Do Enjoy</string>
+
+
+</resources>

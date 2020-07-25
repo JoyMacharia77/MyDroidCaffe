@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joymacharia.mydroidcaffe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_my_app_logo"
+        android:label="@string/furaha_caffe"
+        android:roundIcon="@mipmap/ic_my_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MallActivity" />
+        <activity android:name=".CroissantActivity" />
+        <activity android:name=".CheeseCakeActivity" />
+        <activity android:name=".CookieActivity" />
+        <activity android:name=".TiramisuActivity" />
+        <activity android:name=".IceCreamActivity" />
+        <activity android:name=".JellyActivity" />
+        <activity android:name=".CupcakeActivity" />
+        <activity android:name=".SandwichActivity" />
+        <activity android:name=".FroyoActivity" />
+        <activity android:name=".DonutActivity" />
+        <activity android:name=".MainActivity"
+            android:label="@string/furaha_caffe"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
